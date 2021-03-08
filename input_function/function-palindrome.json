@@ -1,0 +1,28 @@
+{
+    "function": "palindrome",
+    "return-type": "bool",
+    "parameters": [
+      {
+        "parameter": "s",
+        "type": "char[]"
+      },
+      {
+        "parameter": "len",
+        "type": "int"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "len == 1",
+        "action": "true"
+      },
+      {
+        "condition": "len == 2",
+        "action": "s[0]==s[1]"
+      },
+      {
+        "condition": "len > 2",
+        "action": "s[len - 1] ^ palindrome(substr(s, 2, len-2), len-2)"
+      }
+    ]
+  }
