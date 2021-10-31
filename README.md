@@ -1,9 +1,11 @@
 
 # Code Generator for C Functions:
 
-## What's code generation:
+## What's code generation?
 
 In computing, code generation is the process by which a compiler's code generator converts some intermediate representation of source code into a form that can be readily executed by a machine. Sophisticated compilers typically perform multiple passes over various intermediate forms.
+
+## About the project
 
 In this project, tail end recursive program is generated in C from a JSON object.
 
